@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html{
+	font-family: 'Cairo' , sans-serif ;
+
+}
+body{
+	background:#e1f5ff;
+	color: #000;
+}
+.row{
+	background-color: #92cdff57;
+}
+.signup_dk{
+	width: 320px;
+	position: relative;
+	animation: eases ease-in-out 2s;
+}
+.signup_dk .button_{
+	position: absolute;
+    top: 32%;
+    left: 5%;
+    text-align: center;
+}
+.sms{
+	padding: 25px;
+}
+.button_ button{
+	margin: 10px;
+	outline: none;
+	width: 160px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background: #0c946fa1;
+    font-weight: 600;
+
+}
+label{
+	padding: 10px 0;
+	margin: 0;
+}
+.signup_dk img{
+	width: 100%;
+	object-fit: cover;
+}
+.trans{
+	box-shadow: 4px 5px 2px rgb(11,66,99,40%);
+	transform: translate(10px, 24%);
+    justify-content: center;
+}
+.user_name input , .pass_word input , input[type=submit]{
+	width: 100%;
+	outline: none;
+	padding: 10px 10px;
+}
+
+.signup_dk1{
+	display: none;
+	width: 320px;
+	position: relative;
+
+}
+.signup_dk1 .button_{
+	position: absolute;
+    top: 32%;
+    left: 5%;
+    text-align: center;
+}
+.signup_dk1 img{
+	width: 100%;
+	object-fit: cover;
+}
+.form_sign{
+	transition: 1s;
+	display: none;
+}
+input[type=submit]{
+	margin: 15px 0;
+}
